@@ -23,7 +23,7 @@ int showTasks() {
     printf("[%d] %s", lineNum++, buffer);
   }
   if (lineNum == 1) {
-	printf("暂无任务\n");
+	printf("暂无任务\n")
   }
   fclose(fd);
   return 0;
@@ -112,10 +112,6 @@ int main(int argc, char **argv) {
 	  printf("任务已全部删除\n");
       break;
     }
-	case 5: {
-		printf("难道你真的是赋能哥？\n");
-		break;
-	}
     default: {
       printf("未知选项， 请重新输入\n");
     }
